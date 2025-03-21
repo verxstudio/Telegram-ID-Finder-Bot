@@ -1,6 +1,6 @@
 const { Telegraf } = require('telegraf');
 
-const bot = new Telegraf('YOUR TELEGRAM BOT KEY');
+const bot = new Telegraf('7734877955:AAG6ECD4tfcThtEwcxvYG5nh0r8Ei4lOHHQ');
 
 bot.start(ctx => {
   ctx.reply(`Hello, ${ctx.chat.first_name}! Send me any message to get your user ID. Forward a message from a group or channel, or send a channel/group username (@username), to get its ID.`);
